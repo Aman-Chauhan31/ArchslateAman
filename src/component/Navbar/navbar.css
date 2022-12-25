@@ -1,0 +1,43 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 4px 0 rgba(73, 73, 73, 0.2);
+    justify-content: space-between;
+}
+
+.left-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vh;
+    gap: 1vh;
+}
+.right-navbar{
+    display: flex;
+    justify-content: center;
+    margin-right: 10vh;
+}
+.right-navbar>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.right-navbar>ul>li:hover{
+cursor: pointer;
+background-color: thistle;
+border-radius: 10px;
+}
+
+.right-navbar>ul>li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 10px;
+    gap: 0.5vh;
+}
+
+
+

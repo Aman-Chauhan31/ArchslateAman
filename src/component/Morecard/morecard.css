@@ -1,0 +1,130 @@
+.morecard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+.detailcard {
+    background-color: white;
+    width: 114vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6vh;
+    padding-top: 3vh;
+    align-items: flex-start;
+}
+
+.detailcard>ul:nth-child(1)>li:nth-child(3){
+    margin-left: -10%;
+}
+
+.detailcard>ul:nth-child(1)>li,.detailcard>ul:nth-child(8)>li {
+    list-style-type: none;
+}
+
+.infocard{
+    background-color: white;
+    width: 35vh;
+    height: 25vh;
+    padding-left: 2vh;
+}
+
+.start{
+    text-align: left;
+}
+
+.self{
+    list-style-type: none;
+}
+
+.detailcard>ul>li{
+    margin-left: 30px;
+}
+
+.blacks{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.blacks>span{
+    margin-left: 1vh;
+}
+
+.low-detail>button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.low-detail{
+    display: flex;
+    gap: 2vh;   
+    margin-left: -5vh;
+}
+
+.blacks-1 {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.blacks-1>span {
+    margin-left: 1vh;
+}
+
+.infocard-mini{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 6vh;
+}
+
+.infocard-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 2vh;
+}
+
+.infocard-mini>button{
+    border: none;
+    width: 130px;
+    height: 30px;
+    font-size: 17px;
+    margin-top: 2vh;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infocard-mini>button>span{
+    margin-left: 1vh;
+}
+
+@media only screen and (max-width: 1400px) {
+    .morecard {
+            display: flex;
+            justify-content: space-between;
+            gap: 4vh;
+            margin-top: 2vh;
+            padding-bottom: 10vh;
+        }
+}

@@ -1,0 +1,85 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.containermini{
+    background-color: white;
+    width: 35vh;
+    height: 25vh;
+    padding-left: 2vh;
+}
+
+.tagname{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.tagname>p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail > button{
+    width: 13vh;
+    height: 4vh;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.detail >button:nth-child(1)>span{
+    margin-left: 1vh;
+}
+
+.detail{
+    display: flex;
+    gap: 2vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.light{
+    display: flex;
+    flex-direction: column;
+    
+}
+.light>p{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: -7px;
+    margin-left: 14% ;
+}
+
+.light>p:nth-child(2){
+    margin-top: -32px;
+}
+
+.light>button{
+    border-radius: 10px;
+    border: none;
+    width: 10vh;
+    height: 3vh;
+    font-weight: bold;
+    margin-left: 14%;
+    margin-top: -2vh;
+    background-color: #FCCAEE;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .card {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2vh;
+            gap: 4vh;
+        }
+}
